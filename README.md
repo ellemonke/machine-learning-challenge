@@ -2,7 +2,7 @@
 In this challenge, I used [Kepler Exoplanet Data](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) to create a machine learning model.
 
 #### Pre-Processing:
-1. First, I cleaned the data using **Pandas** and selected about 16 initial features to use in the model - all seemingly relevant to the target. 
+1. First, I cleaned the data using **Pandas and NumPy** and selected about 16 initial features to use in the model - all seemingly relevant to the target. 
 2. I chose the column 'koi_disposition' with a classification of 'CONFIRMED' as the target, meaning the observed data would be classified as a 'Kepler Object of Interest' (KOI) or not. The target was binary encoded.
 3. Using **SciKit Learn** from this point forward, I split the data into training and testing data and created scalers to transform them.
 
